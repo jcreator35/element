@@ -250,7 +250,7 @@ export default {
 
 ### 尺寸
 
-:::demo 可通过 `size` 属性指定输入框的尺寸，除了默认的大小外，还提供了 large、small 和 mini 三种尺寸。
+:::demo 可通过 `size` 属性指定输入框的尺寸，除了默认的大小外，还提供了 medium、small 和 mini 三种尺寸。
 ```html
 <div class="demo-input-size">
   <el-input
@@ -769,6 +769,7 @@ export default {
 | 事件名称 | 说明 | 回调参数 |
 |---------|--------|---------|
 | select | 点击选中建议项时触发 | 选中建议项 |
+| change | 在 Input 值改变时触发 | (value: string \| number) |
 
 ### Autocomplete Methods
 | 方法名 | 说明 | 参数 |

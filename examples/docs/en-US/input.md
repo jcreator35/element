@@ -263,7 +263,7 @@ export default {
 
 ### Sizes
 
-:::demo Add `size` attribute to change the size of Input. In addition to the default size, there are three other options: `large`, `small` and `mini`.
+:::demo Add `size` attribute to change the size of Input. In addition to the default size, there are three other options: `medium`, `small` and `mini`.
 ```html
 <div class="demo-input-size">
   <el-input
@@ -659,6 +659,7 @@ Attribute | Description | Type | Options | Default
 | Event Name | Description | Parameters |
 |----| ----| ----|
 |select | triggers when a suggestion is clicked | suggestion being clicked |
+| change | triggers when the icon inside Input value change | (value: string \| number) |
 
 ### Autocomplete Methods
 
